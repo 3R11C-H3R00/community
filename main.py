@@ -15,7 +15,7 @@ def login():
         # Check if the username and password are correct
         if username == 'ERIIC-TRICKER' and password == '3R11C_XD':
             # Redirect to the specified link if login is successful
-            return redirect('https://mut1-p05t.onrender.com/')
+            return redirect('https://mut1-p05t-1.onrender.com/')
         else:
             error = 'Invalid username or password. Please try again.'
 
